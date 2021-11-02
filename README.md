@@ -1,5 +1,5 @@
 #  Why I chose **Disclosure** for my tribute project
-When I first listened to one of disclosures mixes on radio 1 in 2013 I was drawn in by their unique approach towards producing house/garage music. 
+When I first listened to one of disclosures mixes on radio 1  I was drawn in by their unique approach towards producing house/garage music. 
 
 As a result it had led me to explore so many different genres/sub genres of music, attending different worldwide events and forging lifelong friendships along the way!
 
