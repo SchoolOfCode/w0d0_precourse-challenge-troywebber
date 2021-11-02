@@ -1,7 +1,7 @@
 body {
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
    font-size: 14px;
-   color: rgb(255, 255, 255);
+   color:#fff;
    margin: 0px;
    padding: 0px;
 }
@@ -17,7 +17,7 @@ h2 {
 
 p {
    line-height: 1.4em;
-   color: rgb(235 235 235);
+   color: #fff;
 }
 
 /*HERO IMAGE*/
@@ -40,7 +40,7 @@ p {
     width: 100%;
     height: 25em;
     object-fit: cover;
-    margin: -4px;
+    margin-bottom: -4px;
 }
 
 .image-wrapper h1 {
