@@ -22,36 +22,49 @@ p {
 
 /*HERO IMAGE*/
 
-.hero-image {
-    background-image: linear-gradient(rgba(224, 166, 116, 0.589),rgba(0, 0, 0, 0.5)), url("https://thissongissick.com/wp-content/uploads/2018/10/disclosure-5.jpg");
-    width: 100%;
-    height: 25em;
-    display: flex;
-    align-items: center;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.image-wrapper {
+    display: block;
+    position: relative;
 }
 
-.hero-image h1 {
+.image-wrapper:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(224, 166, 116, 0.589),rgba(0, 0, 0, 0.5));
+}
+
+.hero-image {
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+    margin: -4px;
+}
+
+.image-wrapper h1 {
     font-size: 3em;
     color: #fff;
     text-align: center;
     width: 6em;
     margin: 0px auto;
     position: absolute;
-    left: 0;
-    right: 0;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
-.hero-image a {
+.image-wrapper h1:hover {
+    text-decoration: underline;
+}
+
+.image-wrapper a {
     text-decoration: none;
     color: #fff;
 }
 
-.hero-image h1:hover {
-    text-decoration: underline;
-}
+
 
 /*MAIN*/
 
@@ -70,6 +83,20 @@ p {
     align-items: center;
     align-content: center;
     background-image: linear-gradient(rgb(0 0 0),rgb(116 63 18 / 0.59));
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container h2:hover {
+    font-size: 1.4em;
+    padding-bottom: 0.1em;
+    line-height: 1.4em;
+    display: inline;
+    border-bottom: 2px solid #fff;
+    border-radius: 5%;
 }
 
 .albumcover1 {
