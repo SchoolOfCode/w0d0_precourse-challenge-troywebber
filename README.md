@@ -7,3 +7,5 @@ As a result it had led me to explore so many different genres/sub genres of musi
 In this project I managed to improve on my knowledge of CSS positioning by implementing the use of flex for my **"Discography"** section used to display Disclosures Albums.
 
 I had also learned how to use media queries to make my tribute page mobile responsive by preventing the elements on my page from overlapping on smaller resolution displays. 
+
+Researching and applying different gradient overlays on top of the images has in result drastically changed how the page feels and looks.
